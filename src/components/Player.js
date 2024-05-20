@@ -16,8 +16,7 @@ function Player({ playlist }) {
                     <iframe
                         width="560"
                         height="315"
-                        src={`https://www.youtube.com/embed/${playlist[currentVideoIndex].videoId}`}
-                        frameBorder="0"
+                        src="https://www.youtube.com/embed/VIDEO_ID"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     ></iframe>
